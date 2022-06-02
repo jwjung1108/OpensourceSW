@@ -122,7 +122,9 @@
  * jobs 명령어는 현재 쉘 프로세스의 자식 백그라운드 프로세스들을 보여준다고 생각하면 됨
 
 <img width="576" alt="jobs" src="https://user-images.githubusercontent.com/58600616/171676528-6e995526-e1d8-4173-810d-a53a7596c5c3.png">
+
 ---
+
 |상태|설명|
 |:--:|:--:|
 |Running|작업이 계속 진행중임
@@ -133,5 +135,14 @@
 |Stopped(SIGSTOP)|SIGSTOP 시그널이 작업을 일시 중단|
 |Stopped(SIGTTIN)|SIGTTIN 시그널이 작업을 일시 중단|
 |Stopped(SIGTTOU)|SIGTTOU 시그널이 작업을 일시 중단|
+
+##### ***옵션***
+|옵션|설명|
+|:--:|:--:|
+|-l|프로세스 그룹 ID를 state 필드 앞에 출력|
+|-n|프로세스 그룹 중에 대표 프로세스 ID를 출력|
+|-p|각 프로세스 ID에 대해 한 행씩 출력|
+|command| 지정한 명령어를 실행|
+
 
 
