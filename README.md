@@ -22,3 +22,19 @@
 
 ##### `top`
 <img width="868" alt="top" src="https://user-images.githubusercontent.com/58600616/171654016-2ea12488-74fe-4746-9099-55b6685f9f8b.png">
+
+##### `top -b`
+<img width="858" alt="top -b" src="https://user-images.githubusercontent.com/58600616/171654508-8116beb8-e222-453b-a041-f164e217c3f7.png">
+
+---
+###### ***사진을 기준으로 첫번째 줄 부터 보면된다.***
+* top - 23:36:22 up **2:41** : 2시간 41분 전에 서버가 구동
+* **load average : 0.12 0.03 0.01** : 현재 시스템이 얼마나 일을 하는지를 나타냄. 3개의 숫자는 1분, 5분, 15분 간의 평균 실행/대기 중인 프로세스의 수. CPU 코어수 보다 적으면 문제 없음
+* Tasks : 프로세스 개수
+* MiB Mem, Swap : 각 메모리의 사용량
+* PR : 실행 우선순위
+* VIRT, RES, SHR : 메모리 사용량 => 누수 check 가능
+* S : 프로세스 상태(작업중, I/O 대기, 유휴 상태 등)
+
+##### ***VIRT,RES,SHR***
+
