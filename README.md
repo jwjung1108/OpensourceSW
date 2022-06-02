@@ -66,9 +66,14 @@
 
 ##### ***ps 사용법***
 
-|옵션|내용|
+|옵션  |내용|
 |:--:|:--:|
-|-A|writes to standard output information about all processes. 모든 프로세스를 출력한다.|
-|a(BSD계열)|터미널과 연관된 프로세스를 출력하는 옵션이다. 보통 x옵션과 연계하여 모든 프로세스를 출력할 때 사용한다.|
+|-A|writes to standard output information about all processes.<br>모든 프로세스를 출력</br>|
+|a(BSD계열)   |터미널과 연관된 프로세스를 출력하는 옵션 <br>보통 x옵션과 연계하여 모든 프로세스를 출력할 때 사용함</br>|
+|-a|세션 리더(일반적으로 로그인 셸)을 제외하고 데몬 프로세스처럼 터미널에 종속되지 않은 모든 프로세스를 출력함|
+|-e|writes information to standard output about all processes, except kernal processes. <br>커널 프로세스를 제외한 모든 프로세스를 출력해 줌</br>|
+|-f|풀 포맷으로 보여준다 (Generates a full listing) <br>유닉스 스타일로 출력해주는 옵션 UID, PID, PPID등이 함께 표시됨</br>|
+|-l(sys V)<br>I (BSD계열)</br>|긴 포맷으로 보여준다. (Generates a long listing)<br>프로세스의 정보를 길게 보여주는 옵션, 우선순위와 관련된 PRI와 NI값을 확인할 수 있음|
+
 
 
