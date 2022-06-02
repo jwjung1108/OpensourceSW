@@ -57,5 +57,18 @@
    - S : Sleeping 상태, 요청한 리소스를 즉시 사용 가능
    - T : Traced or Stopped. 보통의 시스템에서 자주 볼 수 없는 상태
    - Z : zombie. 부모 프로세스가 죽은 자식 프로세스
+---
+
+##### ***ps***
+
+* Process Status의 약자. 현재 실행중인 프로세스 목록과 상태를 보여줌
+* ps의 옵션은 전통적인 유닉스인 System V, BSD, GNU에 따라 결과와 표기법이 상이함
+
+##### ***ps 사용법***
+
+|옵션|내용|
+|:--:|:--:|
+|-A|writes to standard output information about all processes. 모든 프로세스를 출력한다.|
+|a(BSD계열)|터미널과 연관된 프로세스를 출력하는 옵션이다. 보통 x옵션과 연계하여 모든 프로세스를 출력할 때 사용한다.|
 
 
