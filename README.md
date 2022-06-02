@@ -112,6 +112,26 @@
 
 ---
 
+##### ***jobs***
 
+ * 작업의 상태를 표시하는 명령어
+ * 현재 쉘 세션에서 실행시킨 백그라운드 작업의 목록이 출력, 각 작업에는 번호가 붙어 있어 kill 명령어 뒤에 '% 번호'등으로 사용할 수 있음
+
+`jobs [옵션][작업번호]`
+
+ * jobs 명령어는 현재 쉘 프로세스의 자식 백그라운드 프로세스들을 보여준다고 생각하면 됨
+
+<img width="576" alt="jobs" src="https://user-images.githubusercontent.com/58600616/171676528-6e995526-e1d8-4173-810d-a53a7596c5c3.png">
+---
+|상태|설명|
+|:--:|:--:|
+|Running|작업이 계속 진행중임
+|Done|작업이 완료되어 0을 반환|
+|Done(cod)|작업이 종료되었으며 0이 아닌 코드를 반환|
+|Stopped|작업이 일시중단|
+|Stopped(SIGTSTP)|SIGTSTP 시그널이 작업을 일시 중단|
+|Stopped(SIGSTOP)|SIGSTOP 시그널이 작업을 일시 중단|
+|Stopped(SIGTTIN)|SIGTTIN 시그널이 작업을 일시 중단|
+|Stopped(SIGTTOU)|SIGTTOU 시그널이 작업을 일시 중단|
 
 
