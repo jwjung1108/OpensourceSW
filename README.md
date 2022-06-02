@@ -167,3 +167,21 @@ kill 명령 뒤에 어떤 프로세스의 PID(Process ID)를 적어주면 그 �
 |19| STOP|무조건적, 즉각적 정지}
 |20| TSTP|실행 정지후 다시 실행을 계속하기 위하여 대기시키는 시그널 `[CTRL] + [Z]` 를 눌렀을 때 보내지는 시그널|
 
+---
+
+##### ***vim에디터에서의 매크로(Macro)***
+
+* 특정한 움직임 또는 입력을 키에 저장함으로써, 단순하면서 반복되는 동작을 쉽고 빠르게 해주는 것을 말함
+
+***사용 방법***
+1) q + a   =>   a키에 recording 시작
+2) 반복을 위한 내가 원하는 동작 <br>`print("Hello World!")`</br>
+3) q       =>   recording종료
+4) @a      =>   1회 실행 <br>```print("Hello World!") print("Hello World!")```</br>
+5) @@      =>   방금 실행한 매크로 실행 <br> ```print("Hello World!") print("Hello World!") print("Hello World!")```</br>
+6) 10@a    =>   매크로 10회 실행 <br>```print("Hello Wolrd!") print("Hello Wolrd!") print("Hello Wolrd!") print("Hello Wolrd!") print("Hello Wolrd!") print("Hello Wolrd!") print("Hello Wolrd!") print("Hello Wolrd!") print("Hello Wolrd!") print("Hello Wolrd!")```</br>
+
+
+
+
+
