@@ -180,8 +180,3 @@ kill 명령 뒤에 어떤 프로세스의 PID(Process ID)를 적어주면 그 �
 4) @a      =>   1회 실행 <br>```print("Hello World!") print("Hello World!")```</br>
 5) @@      =>   방금 실행한 매크로 실행 <br> ```print("Hello World!") print("Hello World!") print("Hello World!")```</br>
 6) 10@a    =>   매크로 10회 실행 <br>```print("Hello Wolrd!") print("Hello Wolrd!") print("Hello Wolrd!") print("Hello Wolrd!") print("Hello Wolrd!") print("Hello Wolrd!") print("Hello Wolrd!") print("Hello Wolrd!") print("Hello Wolrd!") print("Hello Wolrd!")```</br>
-
-
-
-
-
